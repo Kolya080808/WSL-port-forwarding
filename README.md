@@ -6,14 +6,14 @@
 
 ## План
 
-1. Зайти в админку маршрутизатора
-2. Найти ip внутри сети
-3. Открыть нужные порты на маршрутизаторе
-4. Добавить правила в брандмауэр
-5. Проверка, доступны ли порты не внутри сети
-6. Пара комманд в powershell
-7. Снова проверка
-8. Готово!
+1. [Зайти в админку маршрутизатора](https://github.com/Kolya080808/WSL-port-forwarding/tree/main#%D0%B7%D0%B0%D0%B9%D1%82%D0%B8-%D0%B2-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%BA%D1%83-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D0%B0)
+2. [Найти ip внутри сети](https://github.com/Kolya080808/WSL-port-forwarding/tree/main#%D0%BD%D0%B0%D0%B9%D1%82%D0%B8-ip-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%81%D0%B5%D1%82%D0%B8)
+3. [Открыть нужные порты на маршрутизаторе](https://github.com/Kolya080808/WSL-port-forwarding/tree/main#%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D0%BD%D1%83%D0%B6%D0%BD%D1%8B%D0%B5-%D0%BF%D0%BE%D1%80%D1%82%D1%8B-%D0%BD%D0%B0-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D0%B5)
+4. [Добавить правила в брандмауэр](https://github.com/Kolya080808/WSL-port-forwarding/tree/main#%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%B2-%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D0%BC%D0%B0%D1%83%D1%8D%D1%80)
+5. [Проверка, доступны ли порты не внутри сети](https://github.com/Kolya080808/WSL-port-forwarding/tree/main#%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B-%D0%BB%D0%B8-%D0%BF%D0%BE%D1%80%D1%82%D1%8B-%D0%BD%D0%B5-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%81%D0%B5%D1%82%D0%B8)
+6. [Пара комманд в powershell](https://github.com/Kolya080808/WSL-port-forwarding/tree/main#%D0%BF%D0%B0%D1%80%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B0%D0%BD%D0%B4-%D0%B2-powershell)
+7. [Снова проверка](https://github.com/Kolya080808/WSL-port-forwarding/tree/main#%D1%81%D0%BD%D0%BE%D0%B2%D0%B0-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0)
+8. [Готово!](https://github.com/Kolya080808/WSL-port-forwarding/tree/main#%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BE)
 
 
 ## Основное содержание
@@ -161,4 +161,4 @@ netsh interface portproxy delete v4tov4 listenaddress=0.0.0.0 listenport={port}
 
 ### Готово!
 
-Все работает. Если у вас есть какие-то вопросы - открывайте issue, и я на них отвечу.
+Все работает. Если у вас есть какие-то вопросы - открывайте [issue](https://github.com/Kolya080808/WSL-port-forwarding/issues/new), и я на них отвечу.
