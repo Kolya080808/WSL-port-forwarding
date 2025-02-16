@@ -162,3 +162,4 @@ netsh interface portproxy delete v4tov4 listenaddress=0.0.0.0 listenport={port}
 ### Готово!
 
 Все работает. Если у вас есть какие-то вопросы - открывайте [issue](https://github.com/Kolya080808/WSL-port-forwarding/issues/new), и я на них отвечу.
+Написал я это 15.02.2025, проверил на следующий день, вроде ничего не упустил. Но если все-таки да - пишите [туда же](https://github.com/Kolya080808/WSL-port-forwarding/issues/new), просто добавьте в Labels "enchancement".
